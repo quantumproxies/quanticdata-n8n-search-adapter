@@ -4,6 +4,11 @@ Connect QuanticData SERP search to the **SearXNG provider setting in self-hosted
 
 This is a QuanticData integration, not an official n8n plugin or a complete SearXNG implementation. Tested with n8n **2.45.7**, its installed `@n8n/ai-utilities` client and the real QuanticData API on 1 November 2026 (UTC).
 
+## Tutorial
+
+- [English video tutorial](https://www.youtube.com/watch?v=ZIiuu05goPc)
+- [Source and download](https://github.com/quantumproxies/quanticdata-n8n-search-adapter)
+
 ## How it works
 
 ```text
