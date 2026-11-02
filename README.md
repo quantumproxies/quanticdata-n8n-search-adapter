@@ -6,6 +6,7 @@ This is a QuanticData integration, not an official n8n plugin or a complete Sear
 
 ## Tutorial
 
+- [Step-by-step setup article on QuanticData](https://quanticdata.io/blog/n8n-assistant-web-search-quanticdata/)
 - [English video tutorial](https://www.youtube.com/watch?v=ZIiuu05goPc)
 - [Source and download](https://github.com/quantumproxies/quanticdata-n8n-search-adapter)
 
