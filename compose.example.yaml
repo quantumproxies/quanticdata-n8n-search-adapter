@@ -1,0 +1,15 @@
+# Add this service to the same Compose project/network as your n8n service.
+# Set build.context to the directory containing this adapter's Dockerfile.
+services:
+  quanticdata-search:
+    build: .
+    image: quanticdata-n8n-search-adapter:0.1.0
+    restart: unless-stopped
+    env_file: .env
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    pids_limit: 64
+    mem_limit: 128m
+    cpus: 0.5
+    # No host port: the n8n container calls http://quanticdata-search:8080.

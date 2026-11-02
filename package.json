@@ -1,0 +1,16 @@
+{
+  "name": "quanticdata-n8n-search-adapter",
+  "version": "0.1.0",
+  "description": "A SearXNG search API adapter for QuanticData, compatible with n8n Assistant web search.",
+  "type": "module",
+  "repository": { "type": "git", "url": "https://github.com/quantumproxies/quanticdata-n8n-search-adapter.git" },
+  "homepage": "https://github.com/quantumproxies/quanticdata-n8n-search-adapter#readme",
+  "bugs": { "url": "https://github.com/quantumproxies/quanticdata-n8n-search-adapter/issues" },
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "node --test"
+  },
+  "files": ["src", "test", "setup.mjs", "scripts/verify-n8n.cjs", "Dockerfile", ".dockerignore", "compose.example.yaml", ".env.example", "README.md", "LICENSE"],
+  "license": "MIT"
+}
